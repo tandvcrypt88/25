@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Weather</h2>
+<input id="city"><button onclick="get()">Check</button>
+<p id="out"></p>
+
+<script>
+function get(){
+  let c=city.value;
+  out.innerText="Weather in "+c+": 30°C ☀️";
+}
+</script>
+</body>
+</html>
